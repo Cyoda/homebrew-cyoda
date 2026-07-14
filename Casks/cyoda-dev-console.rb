@@ -1,7 +1,7 @@
 cask "cyoda-dev-console" do
-  version "0.1.0"
-  sha256 arm:   "a1e85f7ecb6b8f0a484bd88dd594d606e0c1c9cdcc12cddc331608b3e929d383",
-         intel: "4d4ff300c203ab409698a00905ff7b015e0120d088ec6717bf8e3062615a35c5"
+  version "0.2.0"
+  sha256 arm:   "48cb3170aca8cc99d71978e7d03dc46096d839b1d461adfbafe73644eb2e5803",
+         intel: "49619c0490b313bb17c4d9826392e3f2b9df7ea3fa0958587f5cd4b43a1ec815"
 
   arch arm: "aarch64", intel: "x86_64"
   url "https://github.com/cyoda/cyoda-dev-console/releases/download/v#{version}/cyoda-dev-console_#{version}_#{arch}.dmg"
